@@ -35,6 +35,7 @@ function App() {
           <li><code className="command">git push -u origin main</code></li>
           <li><code className="command">npm run deploy</code></li>
         </ol>
+        <p>More details at <a href="https://github.com/gitname/react-gh-pages">https://github.com/gitname/react-gh-pages</a></p>
       </header>
     </div>
   );
