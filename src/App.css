@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -20,12 +20,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 
-.App-link {
+.file {
   color: #61dafb;
+}
+
+.command {
+  color: #fbb361;
+}
+
+li {
+  padding: 0.5em;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +43,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.github {
+  height: 1em;
+  width: 1em;
 }
